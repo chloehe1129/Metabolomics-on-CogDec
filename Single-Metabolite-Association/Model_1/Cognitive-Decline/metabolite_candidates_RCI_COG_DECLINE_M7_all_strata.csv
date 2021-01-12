@@ -1,0 +1,4 @@
+"","metabolite","BIOCHEMICAL","SUPER_PATHWAY","SUB_PATHWAY","PLATFORM","MASS","HMDB","unique","beta_imp","se_imp","p_val_imp","p_val_fdr_imp","beta_comp","se_comp","p_val_comp","p_val_fdr_comp"
+"1","kynurenine","kynurenine","Amino Acid","Tryptophan Metabolism","LC/MS Pos Early",209.0921,"HMDB00684","Shared",0.14,0.034,"3.89e-05","2.43e-02",0.14,0.034,"3.89e-05","2.43e-02"
+"2","methylguanine","7-methylguanine","Nucleotide","Purine Metabolism, Guanine containing","LC/MS Pos Early",166.0723,"HMDB00897","Shared",0.119,0.032,"2.09e-04","4.45e-02",0.119,0.032,"2.09e-04","4.45e-02"
+"3","quinolinate","quinolinate","Cofactors and Vitamins","Nicotinate and Nicotinamide Metabolism","LC/MS Pos Early",168.0291,"HMDB00232","Shared",0.13,0.033,"7.60e-05","2.43e-02",0.13,0.033,"7.60e-05","2.43e-02"
