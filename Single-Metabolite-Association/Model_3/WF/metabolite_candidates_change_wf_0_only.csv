@@ -1,0 +1,2 @@
+"","metabolite","BIOCHEMICAL","SUPER_PATHWAY","SUB_PATHWAY","PLATFORM","MASS","HMDB","unique","beta_imp","se_imp","p_val_imp","p_val_fdr_imp","beta_comp","se_comp","p_val_comp","p_val_fdr_comp"
+"1","linoleoylGPA182","1-linoleoyl-GPA (18:2)*","Lipid","Lysophospholipid","LC/MS Neg",433.2361,"HMDB07856","Complete-case only",0.719,0.183,"8.47e-05","7.62e-02",0.809,0.196,"3.77e-05","2.41e-02"
