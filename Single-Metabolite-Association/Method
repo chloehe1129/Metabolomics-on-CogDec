@@ -14,3 +14,4 @@ education (less than high school, high school, or higher than high school), and 
 Type II Diabetes (T2D) indicator, and hypertension indicator. 
 
 3) Model 2 further adjusted for APOE ɛ4 carrier status (having at least one copy of the allele), alcohol, and cigarette consumption (never, past, current). We also performed stratified analyses by APOE ɛ4 allele carrier status. The significance threshold was False Discovery Rate (FDR) adjusted p-value <0.05 (q-value) computed in each analysis separately. Biological pathways for metabolites were provided by Metabolon’s annotation file. 
+
