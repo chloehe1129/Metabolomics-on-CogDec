@@ -1,0 +1,8 @@
+"","metabolite","BIOCHEMICAL","SUPER_PATHWAY","SUB_PATHWAY","PLATFORM","MASS","HMDB","unique","beta_imp","se_imp","p_val_imp","p_val_fdr_imp","beta_comp","se_comp","p_val_comp","p_val_fdr_comp"
+"1","tartarate","tartarate","Xenobiotics","Food Component/Plant","LC/MS Neg",149.0092,"HMDB00956","Imputed only",0.524,0.139,"1.69e-04","2.72e-02",0.52,0.207,"1.18e-02","2.87e-01"
+"2","DiHOME1213","12,13-DiHOME","Lipid","Fatty Acid, Dihydroxy","LC/MS Neg",313.2384,"HMDB04705","Complete-case only",-0.506,0.185,"6.30e-03","2.18e-01",-0.888,0.198,"7.26e-06","3.07e-03"
+"3","piperine","piperine","Xenobiotics","Food Component/Plant","LC/MS Pos Late",286.1438,"HMDB29377","Complete-case only",-0.367,0.157,"1.99e-02","3.72e-01",-0.676,0.184,"2.39e-04","3.05e-02"
+"4","aminoisobutyrate","3-aminoisobutyrate","Nucleotide","Pyrimidine Metabolism, Thymine containing","LC/MS Pos Early",104.0706,"HMDB03911","Shared",-0.682,0.157,"1.39e-05","4.45e-03",-0.677,0.156,"1.44e-05","3.07e-03"
+"5","hydroxy3methylglutarate","3-hydroxy-3-methylglutarate","Lipid","Mevalonate Metabolism","LC/MS Polar",161.0456,"HMDB00355","Shared",-0.73,0.166,"1.12e-05","4.45e-03",-0.73,0.166,"1.12e-05","3.07e-03"
+"6","isocitrate","isocitrate","Energy","TCA Cycle","LC/MS Pos Early",210.0608,"HMDB00193","Shared",0.568,0.156,"2.64e-04","3.38e-02",0.584,0.167,"4.68e-04","4.98e-02"
+"7","sulfate","sulfate*","Xenobiotics","Chemical","LC/MS Neg",96.9601,"HMDB01448","Shared",-0.517,0.138,"1.71e-04","2.72e-02",-0.517,0.138,"1.71e-04","2.72e-02"
