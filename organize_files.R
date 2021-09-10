@@ -1,0 +1,96 @@
+
+traits <- c(cognitive_change = "RCI_COG_DECLINE_M7",
+            cognitive_change_rate = "decline_rate",
+            MCI = "REG_ANALYTICAL_MCI_M7_T55",
+            DSS_change = "change_dss", 
+            B_SEVLT_change = "change_sevlt",
+            WF_change = "change_wf")
+
+for (trait_name in names(traits)){
+  dir.create(trait_name)
+}
+
+# apoe carrier stratum: stratum = 1
+
+trait_folder <- c(cognitive_change = "Cognitive-Decline",
+                  cognitive_change_rate = "Decline-Rate",
+                  MCI = "Mild-Cognitive-Decline",
+                  DSS_change = "DSS", 
+                  B_SEVLT_change = "SEVLT",
+                  WF_change = "WF")
+read_path <- "Single-Metabolite-Association/Model_1"
+
+combined_columns <- c("metabolite", 
+                      "beta", 
+                      "se", 
+                      "p_val")
+
+
+# first prepare combined sample results:
+for (model in c("mdl1", "mdl2", "mdl3")){
+  for (i in 1:length(traits)){
+    res_cont_file <- paste0(read_path, "/", trait_folder[i], 
+                            "/metabolites_results_", traits[i],
+                            "_imp_cont_", model, ".csv")
+    
+    res_binary_file <- paste0(read_path, "/", trait_folder[i], 
+                            "/metabolites_results_", traits[i],
+                            "_imp_bin_", model, ".csv")
+    
+    res_cont <- read.csv(res_cont_file, header = TRUE)
+    res_binary <- read.csv(res_binary_file, header = TRUE)
+    
+    res_cont <- res_cont[,combined_columns]
+    res_binary <- res_binary[,combined_columns]
+    res_cont$metabolite_model <- "Continuous"
+    res_binary$metabolite_model <- "Dichotomized"
+    res <- rbind(res_cont, res_binary)
+    
+    write.csv(res, file = paste0(names(traits)[i], "/", names(traits)[i],
+                                "_associations_all_participants_", 
+                                model, ".csv"))
+    
+  }
+}
+
+
+
+# prepare results from stratified analysis
+
+for (model in c("mdl1", "mdl2", "mdl3")){
+  for (i in 1:length(traits)){
+    res_cont_file <- paste0(read_path, "/", trait_folder[i], 
+                            "/metabolites_results_", traits[i],
+                            "_imp_cont_", model, "_strat.csv")
+    
+    res_binary_file <- paste0(read_path, "/", trait_folder[i], 
+                              "/metabolites_results_", traits[i],
+                              "_imp_bin_", model, "_strat.csv")
+    
+    res_cont <- read.csv(res_cont_file, header = TRUE)
+    res_binary <- read.csv(res_binary_file, header = TRUE)
+    
+    
+    res_cont_apoe4_carriers <- res_cont[which(res_cont$strata == 1),combined_columns]
+    res_cont_apoe4_non_carriers <- res_cont[which(res_cont$strata == 0),combined_columns]
+    
+    res_binary_apoe4_carriers <- res_binary[which(res_cont$strata == 1),combined_columns]
+    res_binary_apoe4_non_carriers <- res_binary[which(res_binary$strata == 0),combined_columns]
+    
+    res_cont_apoe4_carriers$metabolite_model <- res_cont_apoe4_non_carriers$metabolite_model <- "Continuous"
+    res_binary_apoe4_carriers$metabolite_model <- res_binary_apoe4_non_carriers$metabolite_model <- "Dichotomized"
+    
+    
+    res_apoe4_carriers <- rbind(res_cont_apoe4_carriers, res_binary_apoe4_carriers)
+    res_apoe4_non_carriers <- rbind(res_cont_apoe4_non_carriers, res_binary_apoe4_non_carriers)
+    
+    write.csv(res_apoe4_carriers , file = paste0(names(traits)[i], "/", names(traits)[i],
+                                 "_associations_apoe4_carriers_", 
+                                 model, ".csv"))
+  
+    write.csv(res_apoe4_non_carriers , file = paste0(names(traits)[i], "/", names(traits)[i],
+                                                 "_associations_apoe4_non_carriers_", 
+                                                 model, ".csv"))
+      
+  }
+}
