@@ -11,9 +11,7 @@ We tested the association between 707 blood metabolites measured in 1,451 partic
 ### RESULTS: 
 We identified 20 metabolites associated with prevalent MCI and/or global cognitive change. Six of them were novel and 14 were previously reported as associated with neurocognitive aging outcomes. The MCI MRS comprised 61 metabolites and improved prediction accuracy from 84% (minimally adjusted model) to 89% in the entire dataset and from 75% to 87% among APOE-ε4 carriers.
 
-### What to expect here：
-(1) Code for constructing metabolite risk score (MRS)
-
-(2) Metabolites weights useful for replicating MRS in other studies
-
-(3) Summary statistics for single-metabolite association results organized by neurocognitive phenotypes
+### What to expect in this repository：
+(1) Code for constructing metabolite risk score (MRS)<br/>
+(2) Metabolites weights useful for replicating MRS in other studies<br/>
+(3) Summary statistics for single-metabolite association results organized by neurocognitive phenotypes<br/>
