@@ -13,5 +13,7 @@ We identified 20 metabolites associated with prevalent MCI and/or global cogniti
 
 ### What to expect here：
 (1) Code for constructing metabolite risk score (MRS)
+
 (2) Metabolites weights useful for replicating MRS in other studies
+
 (3) Summary statistics for single-metabolite association results organized by neurocognitive phenotypes
