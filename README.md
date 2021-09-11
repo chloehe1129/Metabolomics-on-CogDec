@@ -14,4 +14,11 @@ We identified 20 metabolites associated with prevalent MCI and/or global cogniti
 ### What to expect in this repository：
 (1) Code for constructing metabolite risk score (MRS)<br/>
 (2) Metabolites weights useful for replicating MRS in other studies<br/>
-(3) Summary statistics for single-metabolite association results organized by neurocognitive phenotypes<br/>
+(3) Summary statistics for single-metabolite association results organized by neurocognitive phenotypes and the different model adjustment <br/>
+
+### Explanation for single-metabolite association output
+(1) Metabolite: the name of the metabolite measured and identified in blood plasma <br/>
+(2) Beta: the coefficient estimate resulted from survey regression analysis. This coefficient should be interpreted as the effect magnitude of the specific metabolites concentration on the outcome. (If the outcome is binary, then the magnitude is the multiplicative effect on Odds Ratio) <br/>
+(3) SE: the standard error of the coefficient estimate <br/>
+(4) P-val: the FDR(false discovery rate)-adjusted p-value of the estimated effect. <br/> 
+
