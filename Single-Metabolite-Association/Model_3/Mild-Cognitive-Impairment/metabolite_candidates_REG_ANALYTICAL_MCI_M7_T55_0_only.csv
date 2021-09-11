@@ -1,8 +1,0 @@
-"","metabolite","BIOCHEMICAL","SUPER_PATHWAY","SUB_PATHWAY","PLATFORM","MASS","HMDB","unique","beta_imp","se_imp","p_val_imp","p_val_fdr_imp","beta_comp","se_comp","p_val_comp","p_val_fdr_comp"
-"1","glycolithocholatesulfate","glycolithocholate sulfate*","Lipid","Secondary Bile Acid Metabolism","LC/MS Neg",255.6307,"HMDB02639","Imputed only",0.387,0.102,"1.48e-04","3.15e-02",0.382,0.115,"8.86e-04","7.37e-02"
-"2","aminooctanoate","2-aminooctanoate","Lipid","Fatty Acid, Amino","LC/MS Pos Late",160.1332,"HMDB00991","Complete-case only",-0.224,0.085,"8.01e-03","1.86e-01",-0.386,0.104,"2.17e-04","2.31e-02"
-"3","glycodeoxycholatesulfate","glycodeoxycholate sulfate","Lipid","Secondary Bile Acid Metabolism","LC/MS Neg",263.6282,"#N/A","Complete-case only",0.312,0.094,"9.01e-04","7.19e-02",0.477,0.126,"1.51e-04","1.95e-02"
-"4","hydroxyoctanoate2","2-hydroxyoctanoate","Lipid","Fatty Acid, Monohydroxy","LC/MS Neg",159.1027,"HMDB02264","Complete-case only",-0.337,0.097,"4.95e-04","7.19e-02",-0.372,0.083,"7.70e-06","4.92e-03"
-"5","taurolithocholate3sulfate","taurolithocholate 3-sulfate","Lipid","Secondary Bile Acid Metabolism","LC/MS Neg",280.6221,"HMDB02580","Complete-case only",0.317,0.109,"3.64e-03","1.49e-01",0.464,0.123,"1.53e-04","1.95e-02"
-"6","arachidonoylGPE204n6","1-arachidonoyl-GPE (20:4n6)*","Lipid","Lysophospholipid","LC/MS Pos Late",502.2928,"HMDB11517","Shared",0.419,0.103,"4.82e-05","2.01e-02",0.419,0.103,"4.82e-05","1.34e-02"
-"7","palmitoleoylGPC161","1-palmitoleoyl-GPC (16:1)*","Lipid","Lysophospholipid","LC/MS Pos Late",494.3241,"HMDB10383","Shared",0.417,0.104,"6.29e-05","2.01e-02",0.417,0.104,"6.29e-05","1.34e-02"

@@ -16,9 +16,14 @@ We identified 20 metabolites associated with prevalent MCI and/or global cogniti
 (2) Metabolites weights useful for replicating MRS in other studies<br/>
 (3) Summary statistics for single-metabolite association results organized by neurocognitive phenotypes and the different model adjustment <br/>
 
-### Explanation for single-metabolite association output
-(1) Metabolite: the name of the metabolite measured and identified in blood plasma <br/>
-(2) Beta: the coefficient estimate resulted from survey regression analysis. This coefficient should be interpreted as the effect magnitude of the specific metabolites concentration on the outcome. (If the outcome is binary, then the magnitude is the multiplicative effect on Odds Ratio) <br/>
-(3) SE: the standard error of the coefficient estimate <br/>
-(4) P-val: the FDR(false discovery rate)-adjusted p-value of the estimated effect. <br/> 
+### Explanation for single-metabolite association files
+(1) metabolite: the name of the metabolite measured in blood plasma, provided by Metabolon <br/>
+(2) beta: the coefficient estimate resulted from survey regression analysis. This coefficient should be interpreted as the effect magnitude of the specific metabolites concentration on the outcome. (If the outcome is binary, then the magnitude is the multiplicative effect on Odds Ratio) <br/>
+(3) se: the standard error of the coefficient estimate <br/>
+(4) p_val: the raw p-value of the estimated effect. <br/> 
+(5) metabolite_model: whether the metabolite was a continuous variables or dichotomized into a binary variable, indicating whether the metabolite was observed or not in an individuals. <br/> 
+
+We provide complete results produced by our association analysis pipelines, including ones that we did not consider in the manuscript, corresponding to un-identified metabolites. These are consistently annotated by Metabolon and may become useful in the future. We also provide results based on three nested regression models, and corresponding to all individuals and stratified by APOE-e4 carrier status.
+
+
 

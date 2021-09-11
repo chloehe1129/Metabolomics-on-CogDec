@@ -1,2 +1,0 @@
-"","metabolite","BIOCHEMICAL","SUPER_PATHWAY","SUB_PATHWAY","PLATFORM","MASS","HMDB","unique","beta_imp","se_imp","p_val_imp","p_val_fdr_imp","beta_comp","se_comp","p_val_comp","p_val_fdr_comp"
-"1","Nacetylcarnosine","N-acetylcarnosine","Peptide","Dipeptide Derivative","LC/MS Pos Early",269.1244,"HMDB12881","Imputed only",1.359,0.341,"6.63e-05","4.23e-02",1.319,0.346,"1.36e-04","1.14e-01"

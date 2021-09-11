@@ -1,5 +1,0 @@
-"","metabolite","BIOCHEMICAL","SUPER_PATHWAY","SUB_PATHWAY","PLATFORM","MASS","HMDB","unique","beta_imp","se_imp","p_val_imp","p_val_fdr_imp","beta_comp","se_comp","p_val_comp","p_val_fdr_comp"
-"1","aminooctanoate","2-aminooctanoate","Lipid","Fatty Acid, Amino","LC/MS Pos Late",160.1332,"HMDB00991","Complete-case only",-0.031,0.012,"7.13e-03","3.56e-01",-0.442,0.096,"4.10e-06","1.31e-03"
-"2","DiHOME910","9,10-DiHOME","Lipid","Fatty Acid, Dihydroxy","LC/MS Neg",313.2384,"HMDB04704","Complete-case only",-0.044,0.013,"5.02e-04","1.10e-01",-0.429,0.099,"1.45e-05","3.10e-03"
-"3","hydroxyoctanoate2","2-hydroxyoctanoate","Lipid","Fatty Acid, Monohydroxy","LC/MS Neg",159.1027,"HMDB02264","Complete-case only",-0.04,0.012,"6.12e-04","1.10e-01",-0.415,0.084,"7.88e-07","5.04e-04"
-"4","taurolithocholate3sulfate","taurolithocholate 3-sulfate","Lipid","Secondary Bile Acid Metabolism","LC/MS Neg",280.6221,"HMDB02580","Complete-case only",0.031,0.012,"8.14e-03","3.82e-01",0.403,0.105,"1.19e-04","1.90e-02"

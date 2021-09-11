@@ -1,5 +1,0 @@
-"","metabolite","BIOCHEMICAL","SUPER_PATHWAY","SUB_PATHWAY","PLATFORM","MASS","HMDB","unique","beta_imp","se_imp","p_val_imp","p_val_fdr_imp","beta_comp","se_comp","p_val_comp","p_val_fdr_comp"
-"1","DiHOME1213","12,13-DiHOME","Lipid","Fatty Acid, Dihydroxy","LC/MS Neg",313.2384,"HMDB04705","Complete-case only",-0.486,0.174,"5.32e-03","2.11e-01",-0.896,0.201,"8.66e-06","2.77e-03"
-"2","piperine","piperine","Xenobiotics","Food Component/Plant","LC/MS Pos Late",286.1438,"HMDB29377","Complete-case only",-0.339,0.156,"3.02e-02","3.94e-01",-0.607,0.157,"1.12e-04","1.78e-02"
-"3","aminoisobutyrate","3-aminoisobutyrate","Nucleotide","Pyrimidine Metabolism, Thymine containing","LC/MS Pos Early",104.0706,"HMDB03911","Shared",-0.664,0.137,"1.32e-06","8.45e-04",-0.658,0.136,"1.42e-06","9.08e-04"
-"4","hydroxy3methylglutarate","3-hydroxy-3-methylglutarate","Lipid","Mevalonate Metabolism","LC/MS Polar",161.0456,"HMDB00355","Shared",-0.675,0.155,"1.34e-05","4.27e-03",-0.674,0.155,"1.34e-05","2.85e-03"
