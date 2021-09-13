@@ -25,7 +25,5 @@ We identified 20 metabolites associated with prevalent MCI and/or global cogniti
 
 We provide complete results produced by our association analysis pipelines, including ones that we did not consider in the manuscript, corresponding to un-identified metabolites. These are consistently annotated by Metabolon and may become useful in the future. We also provide results based on three nested regression models, and corresponding to all individuals and stratified by APOE-e4 carrier status.
 
-### Sample Size 
-
 
 
