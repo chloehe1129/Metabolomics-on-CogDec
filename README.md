@@ -1,5 +1,7 @@
 # Blood metabolites predicting Mild Cognitive Impairment in the Study of Latinos-Investigation of Neurocognitive Aging
 
+https://www.medrxiv.org/content/10.1101/2021.06.16.21258702v1
+
 Shan He, Einat Granot-Hershkovitz, Ying Zhang, Jan Bressler, Wassim Tarraf, Bing Yu, Donglin Zeng, Sylvia Wassertheil-Smoller, Melissa Lamar, Martha Daviglus, Maria J Marquine, Jianwen Cai, Thomas Mosley, Robert Kaplan, Eric Boerwinkle, Myriam Fornage, Charles DeCarli, Bruce Kristal, Hector M Gonzalez, Tamar Sofer
 
 ### INTRODUCTION: 
